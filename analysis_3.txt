@@ -1,0 +1,34 @@
+Исходный текст: 
+<<"The Difference Between Finance And Economics
+By Stephen D. Simpson, CFA
+Source: Investopedia
+Although they are often taught and presented as very separate disciplines, economics and finance are interrelated and inform and influence each other. Investors care about these studies because they also influence the markets to a great degree. Here we take a look at finance and economics, what they can teach investors and how they differ.
+What is it?
+Without falling back on dry academic definitions, economics is a social science that studies the production, consumption and distribution of goods and services, with an aim of explaining how economies work and how their agents interact. Although labeled a вЂњsocial scienceвЂќ and often treated as one of the liberal arts, modern economics is in fact often very quantitative and heavily math-oriented in practice.
+How is economics useful?
+When economists succeed in their aims to understand how consumers and producers react to changing conditions, economics can provide powerful guidance and influence to policy-making at the national level. Said differently, there are very real consequences to how a nation approaches taxation, regulation, and government spending; economics can offer advice and analysis regarding these decisions.
+Economics can also help investors understand the potential ramifications of national policy and events on business conditions. Understanding economics can also give investors the tools to predict macroeconomic conditions and understand the implications of those predictions on companies, stocks, markets and so on. Being able to project that a certain set of government policies will stoke (or choke off) inflation or growth in a country can certainly help stock and bond investors position themselves appropriately.
+Economics as a career
+For those who choose to pursue economics as a career, academia is an obvious option. Academics not only spend their time attempting to teach students the principles of economics, but also researching within the field and formulating new theories and explanations of how markets work and how their agents interact.
+There is also call for economists in the corporate world. Here the concerns of economists are more immediate and near-term. Economists working for major investment banks, consultancies, and other corporations often focus on forecasting growth (GDP, for instance), interest rates, inflation, and so on. These projections may represent a product in their own right (that can be marketed to clients) or an input for managers and other decision-makers within the company.
+Economics in the markets
+Investors have an erratic history with economists, listening to them carefully at some times and all but ignoring them at others. While some investors may ignore economistsвЂ™ concerns and pile their investments into the latest booming sector, others will carefully track data on GDP, inflation and deficits to inform their investing decisions. It also matters which market is being considered; bond investors typically tend to pay more attention to economic data than many equity investors do.
+">>
+Параметры варианта 18: латиница, по кол-ву символов, по убыванию, учитывать числа, сортировка слиянием 
+Количество слов: 473
+Время сортировки: 0.128 с
+Статистика (количество слов каждой длины): 
+1: 11
+2: 67
+3: 87
+4: 60
+5: 48
+6: 33
+7: 36
+8: 31
+9: 50
+10: 24
+11: 10
+12: 8
+13: 7
+15: 1

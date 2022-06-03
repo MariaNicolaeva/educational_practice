@@ -1,0 +1,32 @@
+Исходный текст: 
+<<"Journey to the Farthest Planet.
+Scientists are finally preparing to send a spacecraft to Pluto and the Kuiper Belt, the last unexplored region of our planetary system. 
+By S. Alan Stern 
+
+Until about 10 years ago, most planetary scientists considered Pluto to be merely an oddity. All the other planets neatly fit into what astronomers knew about the architecture of the solar system--four small, rocky bodies in the inner orbits and four gas giants in the outer orbits, with an asteroid belt in between. But distant Pluto was an icy enigma traveling in a peculiar orbit beyond Neptune. Some researchers, most notably Dutch-American astronomer Gerard Kuiper, had suggested in the 1940s and 1950s that perhaps Pluto was not a world without context but the brightest of a vast ensemble of objects orbiting in the same region. This concept, which came to be known as the Kuiper Belt, rattled around in the scientific literature for decades. 
+And that's just the tip of the iceberg, so to speak. Extrapolating from the small fraction of the sky that has been surveyed so far, investigators estimate that the Kuiper Belt contains approximately 100,000 objects larger than 100 kilometers across. As a result, the Kuiper Belt has turned out to be the big brother to the asteroid belt, with far more mass, far more objects (especially of large sizes), and a greater supply of ancient, icy and organic material left over from the birth of the solar system. 
+
+It is now clear that Pluto is not an anomaly. Instead it lies within a vast swarm of smaller bodies orbiting between about five billion and at least eight billion kilometers from the sun. Because this far-off region may hold important clues to the early development of the solar system, astronomers are keenly interested in learning more about Pluto, its moon, Charon, and the bodies making up the Kuiper Belt. Unfortunately, the immense distance between this region of the solar system and Earth has limited the quality of observations. Even the exquisite Hubble Space Telescope, for example, shows only blurry regions of light and dark on Pluto's surface. And although the Pioneer, Voyager and Galileo spacecraft have provided scientists with marvelous close-up images of Jupiter, Saturn, Uranus and Neptune, no space probe has ever visited the Pluto-Charon system or the Kuiper Belt. 
+Recognizing the importance of this region of the solar system, scientists have urged NASA to put Pluto on its planetary exploration agenda for more than a decade. In response, the space agency has studied mission concepts ranging from houseboat-size, instrument-laden spacecraft similar to the Cassini probe (now on its way to Saturn) to hamster-size craft carrying just a camera. In the late 1990s NASA settled on a midsize concept called Pluto-Kuiper Express that would be built by the Jet Propulsion Laboratory in Pasadena, Calif. But the projected cost of that mission quickly rose toward $800 million, which was considerably more than NASA wanted to invest. As a result, the agency scrapped Pluto-Kuiper Express in the fall of 2000. 
+But this cancellation didn't go down easily. Scientists, space exploration advocates and schoolchildren flooded NASA with requests to reconsider, and the agency did so, but with a twist. Rather than restarting the expensive Pluto-Kuiper Express, NASA launched a competition among universities, research labs and aerospace companies for proposals to explore Pluto, Charon and the Kuiper Belt at lower cost. Never before had NASA allowed industry and universities to compete to lead a mission to the outer solar system. Given the novelty of such a competition, NASA made it clear that if none of the proposals could accomplish the specified scientific measurement objectives by 2020, and for less than $500 million, then the agency was under no obligation to choose any of them. 
+Last November, after a grueling selection process, NASA picked our team, called New Horizons, to carry out the Pluto-Kuiper Belt mission. New Horizons is led by my institution, the Southwest Research Institute, based in San Antonio, Tex., and the Applied Physics Laboratory (APL) at Johns Hopkins University. A team of scientists from more than a dozen universities, research institutions and NASA centers is deeply involved in planning the scientific observations. The Southwest Research Institute will manage the project, be in charge of the mission team and be responsible for the development of the scientific instruments. APL will build and operate the New Horizons spacecraft. Ball Aerospace, the NASA Goddard Space Flight Center and Stanford University will build portions of the instrument payload, and JPL will be responsible for spacecraft tracking and navigation. 
+">>
+Параметры варианта 18: латиница, по кол-ву символов, по убыванию, учитывать числа, сортировка слиянием 
+Количество слов: 762
+Время сортировки: 0.749 с
+Статистика (количество слов каждой длины): 
+1: 25
+2: 105
+3: 156
+4: 113
+5: 74
+6: 73
+7: 77
+8: 39
+9: 25
+10: 36
+11: 16
+12: 15
+13: 4
+14: 3
+16: 1

@@ -1,0 +1,29 @@
+Исходный текст: 
+<<"The history of Great Britain.
+As any other country Britain has its own history, with periods of prosperity and decay. The first inhabitants of the island were Iberians, who probably form the basis of the present-day population in Western England, Wales, North and Western Scotland and Ireland. They came between 3000 and 2000 Р’РЎ. Soon a new race from east of Europe came. The ancient people who gradually merged together, left behind impressive monuments, connected with religious acts at Stonehenge and other places. Stonehenge also served as an ancient observatory.
+Soon after 700 Р’РЎ Britain was invaded by the Celts, who came from Central Europe. Their language developed into the Celtic language of modern Wales. In AD 43 the Romans began an invasion. It resulted in the Roman occupation of Britain. The Romans built many military roads, walls, and towns according to their tradition.
+In some parts of the country these roads to these days form the basis of road communication. The largest of the towns was called Londinium. It was on the river Thames, where London is today. It became the capital city.
+In the 5th century Britain was subject to the attacks of the Germanic tribes of the Jutes, the Saxons and the Angles. Eventually the invaders settled down and formed a number of small kingdoms. The Anglo-Saxons and Jutes were close to each other in language and customs, and they gradually became one people. In the 7th вЂ” 9th centuries important changes took place among the members of the Anglo-Saxons communities. Land became private property of separate families. It was the beginning of feudal relations. The Danish invasions of the 9th and 10th centuries brought a new wave of the development of feudal relations in England.
+At the beginning of the 9th century the Danes and Norsemen began to occupy the country. They ruled the country tor several decades till 1042. 24 years later the invasion by the Normans under William the Conqueror began. The social structure of the country was very similar to the rest of Europe. The Norman invaders brought their language with them too. They spoke a Norman dialect and it became the language of administration, the official language of the state. Latin was the language of the Church, law and learning. However, the common people continued to speak English.
+The economic development of the country during the Middle Ages (11th вЂ” 15th centuries) illustrates the exploitation of the peasant by the feudal lords, as well as by the church. Trade developed throughout the country. By the 14th century most English towns were becoming free from feudal restrictions. Besides, the country had a strong Monarchy and a Parliament. The 15th century was a period of civil wars, Wars of the Roses (1455вЂ”85). In form it was a struggle between two mart powerful feudal families вЂ” the House of Lancaster which had the emblem of the red rose and the House of York with the emblem of the white rose. It weakened economically and independently old feudal families.
+Wars of the Roses could not prevent the economic development of the country. In the 15th вЂ” 16th centuries the clothing industry was well developed. The cloth was exported. Cloth industry gave development to capitalistic relations It brought a new wave of cultural and scientific development. The English bourgeois revolution took place in a country where capitalism developed faster than in any other country of Europe. As a result of its development England 100 years later alter the revolution became the first industrial state in the world, a power, which had created the largest colonial empire. The triumph of capitalism in England gave a powerful impulse to the development of capitalism all over the world. The 18th century brought the Industrial Revolution. It caused social changes. English society was breaking up into two basic classes - the proletarians and the capitalists. The working-class began to defend their rights.
+Britain's relatively peaceful development ended in the year 1914. Britain entered Strikes and unemployment were the result of it. World War II was another difficult period in the history of Britain. The British people withstood heavy bombing with great courage. London itself was bombed for 76 nights continuously.
+">>
+Параметры варианта 18: латиница, по кол-ву символов, по убыванию, учитывать числа, сортировка слиянием 
+Количество слов: 707
+Время сортировки: 0.368 с
+Статистика (количество слов каждой длины): 
+1: 19
+2: 122
+3: 155
+4: 69
+5: 79
+6: 63
+7: 81
+8: 43
+9: 30
+10: 19
+11: 14
+12: 9
+13: 3
+14: 1
