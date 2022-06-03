@@ -120,3 +120,9 @@ void merge_sort(vector <string>& array_of_words, int left, int right) //функ
 Скриношот файла с анализом текста:
                                    
 ![image](https://user-images.githubusercontent.com/106019319/171848276-dd4801ce-4d54-412c-abfe-3694df271a98.png)
+                                   
+Скриношот консоли:
+                                   
+![image](https://user-images.githubusercontent.com/106019319/171849026-4a9d0af3-a917-42f9-820b-0c4c79f989cb.png)
+                  
+                                   
