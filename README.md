@@ -129,7 +129,3 @@ void merge_sort(vector <string>& array_of_words, int left, int right) //функ
                                    
 ![image](https://user-images.githubusercontent.com/106019319/171849290-26ded746-88a6-4a39-8299-3d44900454bd.png)
 ![image](https://user-images.githubusercontent.com/106019319/171849383-be78dccc-45b8-4a03-84cd-d8001183cdf0.png)
-
-                                   
-                  
-                                   
