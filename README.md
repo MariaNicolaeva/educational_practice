@@ -69,3 +69,43 @@ vector<string> breakdown_into_words(string name, string& original_string)
     }
     return array_of_words;
 }
+
+Для сортировки массива слов используется функция сортировки слиянием:
+
+void merge_sort(vector <string>& array_of_words, int left, int right) //функция сортировки слов по длине слиянием 
+{
+    if (left == right)
+        return; // границы сомкнулись
+
+    int mid = (left + right) / 2; // определяем середину последовательности
+    //рекурсивно вызываем функцию сортировки для каждой половины
+
+    merge_sort(array_of_words, left, mid);
+    merge_sort(array_of_words, mid + 1, right);
+
+    int i = left;  // начало первого пути
+    int j = mid + 1; // начало второго пути
+
+    vector <string> tmp(array_of_words.size()); // дополнительный массив
+
+    for (int step = 0; step < right - left + 1; step++) // для всех элементов дополнительного массива
+    {
+        // записываем в формируемую последовательность меньший из элементов двух путей
+        // или остаток первого пути если j > right
+        if ((j > right) || ((i <= mid) && (array_of_words[i].size() > array_of_words[j].size())))
+        {
+            tmp[step] = array_of_words[i];
+            i++;
+        }
+        else
+        {
+            tmp[step] = array_of_words[j];
+            j++;
+        }
+    }
+    // переписываем сформированную последовательность в исходный массив
+
+    for (int step = 0; step < right - left + 1; step++)
+        array_of_words[left + step] = tmp[step];
+
+}
