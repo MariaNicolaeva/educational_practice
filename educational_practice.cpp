@@ -11,7 +11,8 @@ vector<string> breakdown_into_words(string name, string& original_string);
 void merge_sort(vector <string>& array_of_words, int left, int right);
 unsigned int sorting_and_sorttime(vector<string>& array_of_words);
 vector <int> counting_words(vector<string> array_of_words, string name, set <int>& sizes_of_words);
-
+void writing_to_file_analysis(string name, string original_string, int time, int size_array_of_words, vector <int> number_of_words, set <int> sizes_of_words);
+void writing_to_file_result(string name, vector<string> array_of_words);
 
 int main()
 {
@@ -33,6 +34,12 @@ int main()
     set <int> sizes_of_words;
     //подсчет количества слов каждой длины
     vector<int> number_of_words = counting_words(array_of_words, file_name, sizes_of_words);
+    
+    //запись в файл result
+    writing_to_file_result(file_name, array_of_words);
+
+    //запись в файл analysis
+    writing_to_file_analysis(file_name, original_string, time, array_of_words.size(), number_of_words, sizes_of_words);
 
     return 0;
 }
@@ -170,4 +177,54 @@ vector <int> counting_words(vector<string> array_of_words, string name, set <int
     }
 
     return number_of_words;
+}
+
+void writing_to_file_analysis(string name, string original_string, int time, int size_array_of_words, vector <int> number_of_words, set <int> sizes_of_words) //функция записи в файл analysis
+{
+    fstream file_analysis;
+
+    string analysis_str = "analysis_" + name + ".txt";
+    file_analysis.open(analysis_str, ios::out); //открываем файл на запись в него, если файла нет, то он создастся
+
+    file_analysis
+        << "Исходный текст: " << endl
+        << "<<" << original_string << ">>" << endl //вывод исходного текста
+        << "Параметры варианта 18: латиница, по кол-ву символов, по убыванию, учитывать числа, сортировка слиянием " << endl
+        << "Количество слов: " << size_array_of_words << endl
+        << "Время сортировки: " << static_cast<double>(time) / 1000 << " с" << endl //static_cast - приведение одного типа (int) к другому (double)
+        << "Статистика (количество слов каждой длины): " << endl;
+
+    cout
+        << "Исходный текст: " << endl
+        << "<<" << original_string << ">>" << endl
+        << "Параметры варианта 18: латиница, по кол-ву символов, по убыванию, учитывать числа, сортировка слиянием " << endl
+        << "Количество слов: " << size_array_of_words << endl
+        << "Время сортировки: " << static_cast<double>(time) / 1000 << " с" << endl
+        << "Статистика (количество слов каждой длины): " << endl;
+
+    set <int> ::iterator it; //итератор для работы с множеством 
+    //вывод количества слов разной длины
+    int j = 0;
+    for (it = sizes_of_words.begin(); it != sizes_of_words.end(); it++)
+    {
+        file_analysis << *it << ": " << number_of_words[j] << endl; //выводим длину и количество (в файл)
+        cout << *it << ": " << number_of_words[j] << endl; //выводим длину и количество 
+        j++;
+    }
+    file_analysis.close();
+}
+
+void writing_to_file_result(string name, vector <string> array_of_words) //функция записи в файл result
+{
+    fstream file_result;
+
+    string analysis_str = "result_" + name + ".txt";
+    file_result.open(analysis_str, ios::out); //открываем файл на запись в него, если файла нет, то он создастся
+
+    //вывод слов
+    for (int i = 0; i < array_of_words.size(); i++)
+    {
+        file_result << array_of_words[i] << endl;
+    }
+    file_result.close();
 }
