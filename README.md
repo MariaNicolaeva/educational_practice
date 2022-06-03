@@ -7,6 +7,7 @@
 
 Для разбивки исходного текста на массив слов используется функция:
 
+```
 vector<string> breakdown_into_words(string name, string& original_string) 
 {
     fstream file_original; //создаем переменную файла
@@ -69,9 +70,11 @@ vector<string> breakdown_into_words(string name, string& original_string)
     }
     return array_of_words;
 }
+```
 
 Для сортировки массива слов используется функция сортировки слиянием:
 
+```
 void merge_sort(vector <string>& array_of_words, int left, int right) //функция сортировки слов по длине слиянием 
 {
     if (left == right)
@@ -109,6 +112,7 @@ void merge_sort(vector <string>& array_of_words, int left, int right) //функ
         array_of_words[left + step] = tmp[step];
 
 }
+```
 
 Скриношот файла с исходными данными:
 ![image](https://user-images.githubusercontent.com/106019319/171847328-29961cf8-58da-4b6a-a088-259686c76918.png)
