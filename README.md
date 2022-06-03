@@ -109,3 +109,11 @@ void merge_sort(vector <string>& array_of_words, int left, int right) //функ
         array_of_words[left + step] = tmp[step];
 
 }
+
+Скриношот файла с исходными данными:
+![image](https://user-images.githubusercontent.com/106019319/171847328-29961cf8-58da-4b6a-a088-259686c76918.png)
+
+Скриношот файла с отсортированными словами:
+
+![image](https://user-images.githubusercontent.com/106019319/171847736-215e020f-0ec9-4919-8124-c7b4cd5add46.png)
+
