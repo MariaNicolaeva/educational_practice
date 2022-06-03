@@ -10,6 +10,8 @@ using namespace std;
 vector<string> breakdown_into_words(string name, string& original_string);
 void merge_sort(vector <string>& array_of_words, int left, int right);
 unsigned int sorting_and_sorttime(vector<string>& array_of_words);
+vector <int> counting_words(vector<string> array_of_words, string name, set <int>& sizes_of_words);
+
 
 int main()
 {
@@ -27,6 +29,10 @@ int main()
 
     //сортировка слов по длине и вычисление времени сортировки
     unsigned int time = sorting_and_sorttime(array_of_words);
+
+    set <int> sizes_of_words;
+    //подсчет количества слов каждой длины
+    vector<int> number_of_words = counting_words(array_of_words, file_name, sizes_of_words);
 
     return 0;
 }
@@ -138,4 +144,30 @@ void merge_sort(vector <string>& array_of_words, int left, int right) //функ
     for (int step = 0; step < right - left + 1; step++)
         array_of_words[left + step] = tmp[step];
 
+}
+
+vector <int> counting_words(vector<string> array_of_words, string name, set <int>& sizes_of_words) //функция подсчета количества слов на каждую букву
+{
+    set <int> ::iterator it; //итератор для работы с множеством 
+    for (int i = 0; i < array_of_words.size(); i++)
+    {
+        sizes_of_words.insert(array_of_words[i].size()); //добавляем длину слова в множество
+    }
+    vector <int> number_of_words(sizes_of_words.size()); //создаем массив количества длин
+
+    for (int i = 0; i < array_of_words.size(); i++)
+    {
+        int j = 0;
+        for (it = sizes_of_words.begin(); it != sizes_of_words.end(); it++) //идем по всему множеству
+        {
+            if (array_of_words[i].size() == *it) //если элемент множества размера слов равен длине слова 
+            {
+                number_of_words[j]++; //увеличиваем в массиве элемент на 1
+                break;
+            }
+            j++;
+        }
+    }
+
+    return number_of_words;
 }
